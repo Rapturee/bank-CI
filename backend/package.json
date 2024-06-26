@@ -2,15 +2,15 @@
   "name": "backend",
   "version": "1.0.0",
   "main": "server.js",
-  "type": "module",
   "scripts": {
     "start": "nodemon server.js",
-    "migrate": "knex migrate:latest"
+    "migrate": "knex migrate:latest",
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
   "dependencies": {
-    "dotenv": "^10.0.0",
+    "dotenv": "^4.0.0",
     "express": "^4.17.1",
-    "knex": "^0.95.10",
+    "knex": "^2.95.0",
     "mysql": "^2.18.1",
     "cors": "^2.8.5",
     "body-parser": "^1.19.0",
